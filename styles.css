@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 100px;
+    /* padding: 20px; */
+}
+
+.navbar {
+    background-image: linear-gradient(180deg, rgba(5, 5, 14, 0.8), rgba(41, 182, 41, 0.1)), url(https://images.unsplash.com/photo-1428572184420-7d1092d8c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.prueba {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul li a{
+    padding: 10px;
+    list-style: none;
+    margin: 0 25px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+ul li a:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    padding: 10px
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+h1 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 15px
+}
+
+h3 {
+    font-size: 35px
+}
+
+form {
+    margin: ;
+}
+
+.btn {
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 10px;
+    margin: 0 10px;
+    background-color: whitesmoke;
+}
+
+.red {
+    background-color: rgb(255, 74, 74);
+    color: white;
+    cursor: pointer;
+}
+
+.red:hover {
+    background-color: white;
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    padding: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    color: white;
+}
+
+.undercard p {
+    color: black;
+}
+
+.grid {
+    display: flex;
+}
+
+.position {
+    color: white;
+    position: absolute;
+    font-weight: 800;
+    top: 250px;
+    left: 20px;
+}
+
+.position2 {
+    position: absolute;
+    font-weight: 800;
+    top: 220px;
+    left: 0px;
+    padding: 5px 10px;
+}
+
+.city2 {
+    position: relative;
+    margin: 0 10px;
+}
+
+.city2:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.city {
+    position: relative;
+    margin: 0 10px;
+}
+
+.imagenes {
+    border-radius: 3%;
+    width: 300px;
+    height: 300px;
+}
+
+.imagenes2 {
+    width: 400px;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+.cities {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 2%;
+}
+
+i {
+    color: rgb(0, 168, 168);
+    font-size: 12px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.undercard {
+    padding: 10px;
+}
+
+span {
+    background-color: rgb(255, 74, 74);
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
+
+.footnav{
+    display: flex;
+    
+
+}
+
+.lastsection{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lastsection2{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textarea{
+    width: 20%;
+}
+
+.lastsection div p {
+    margin: 4px;
+
+}
+
+#formfoot{
+    display: flex;
+    flex-direction: column;
+}
+
+.lastsection2 ul li a{
+    font-size: 13px;
+}
