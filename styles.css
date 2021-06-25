@@ -88,6 +88,14 @@ h3 {
     background-color: whitesmoke;
 }
 
+.btn:focus {
+    outline-width: 0;
+}
+
+.btn::placeholder {
+    color: black;
+}
+
 .red {
     background-color: rgb(255, 74, 74);
     color: white;
@@ -227,11 +235,16 @@ footer {
 
 .textarea {
     width: 30em;
+    padding-top: .5em;
 }
 
-#formfoot {
+.divfoot {
     display: flex;
     flex-direction: column;
+}
+
+.divfoot img {
+    margin-bottom: .7em;
 }
 
 .lastsection2 ul li a {
@@ -269,18 +282,22 @@ footer {
     .btn {
         margin-bottom: 1em;
     }
+
+    .center {
+        margin: 1em;
+    }
     html {
         font-size: 75%;
     }
 }
 
-@media screen and (max-width:690px) {
+@media screen and (max-width:720px) {
     .lastsection, .lista {
         flex-direction: column;
         align-content: center;
     }
     .lastsection div {
         align-items: center;
-        margin-bottom: 1em;
+        margin: 1em;
     }
 }
