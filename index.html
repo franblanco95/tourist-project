@@ -31,7 +31,7 @@
             <h1>Where do you want to go?</h1>
             <h3 class="subtitle">Trips, experience and places. All in one service.</h3>
             <form action="#">
-                <input class="btn" type="text" placeholder="Destination, city" required>
+                <input class="btn" type="text" placeholder="Destination, city" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Destination, city'"required>
                 <select class="btn" name="month" id="month" required>
                     <option value="">Choose Month</option>
                     <option value="">January</option>
