@@ -16,48 +16,48 @@
 
     <section class="navbar">
         <nav class="prueba">
-            <img class="logo" src="img/logo.png" alt="logo">
+            <a class="center" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
             <ul class="lista">
                 <li><a href="">Home</a></li>
                 <li><a href="">Tours</a></li>
                 <li><a href="">Booking</a></li>
                 <li><a href="">Destination</a></li>
                 <li><a href="">Blog</a></li>
-                <li><a href="">Shortcodes</a></li>
-                <li><a href="">Shop</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
 
         <div class="main">
             <h1>Where do you want to go?</h1>
-            <h2>Trips, experience and places. All in one service.</h2>
+            <h3 class="subtitle">Trips, experience and places. All in one service.</h3>
             <form action="#">
-                <input class="btn" type="text" placeholder="Destination, city">
-                <select class="btn" name="" id="">
-                    <option value="">Cualquier Mes</option>
-                    <option value="">Enero</option>
-                    <option value="">Febrero</option>
-                    <option value="">Marzo</option>
-                    <option value="">Abril</option>
-                    <option value="">Mayo</option>
-                    <option value="">Junio</option>
-                    <option value="">Julio</option>
-                    <option value="">Agosto</option>
-                    <option value="">Septiembre</option>
-                    <option value="">Octubre</option>
-                    <option value="">Noviembre</option>
-                    <option value="">Diciembre</option>
+                <input class="btn" type="text" placeholder="Destination, city" required>
+                <select class="btn" name="month" id="month" required>
+                    <option value="">Choose Month</option>
+                    <option value="">January</option>
+                    <option value="">February</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">September</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>
                 </select>
-                <input class="btn" type="date" placehold="Sort by Date">
+                <input class="btn" type="date" value="2021-06-25" min="2021-06-25" required>
                 <input class="btn red" type="submit" value="Submit">
             </form>
         </div>
     </section>
 
+
     <section class="container">
         <div class="intro">
-            <h3>Popular Destinations</h3>
-            <h2>World's best tourist destinations</h2>
+            <h2>Popular Destinations</h2>
+            <h3>World's best tourist destinations</h3>
         </div>
 
         <div class="grid">
@@ -86,10 +86,14 @@
                 </a>
             </div>
         </div>
+    </section>
+    
+    <div class="underline"></div>
 
+    <section class="container">
         <div class="intro">
-            <h3>Best Value Trips</h3>
-            <h2>Best offers trip from us</h2>
+            <h2>Best Value Trips</h2>
+            <h3>Best offers trip from us</h3>
         </div>
 
         <div class="grid">
@@ -98,40 +102,41 @@
                 <a href=" #">
                     <img class="imagenes2" src="img/travel.jpeg" alt="">
                     <span class="position2">$5,000</span>
+                    <div class="undercard">
+                        <p class="cities">French Autumn</p>
+                        <p>City Tours, Urban</p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="far fa-star"></i>
+                    </div>
                 </a>
-                <div class="undercard">
-                    <p class="cities">French Autumn</p>
-                    <p>City Tours, Urban</p>
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                        class="fas fa-star"></i><i class="far fa-star"></i>
-                </div>
             </div>
 
             <div class="city2 card">
                 <a href="#">
                     <img class="imagenes2" src="img/travel2.jpeg" alt="">
                     <span class="position2">$6,000</span>
+                    <div class="undercard">
+                        <p class="cities">Grand Switzerland</p>
+                        <p>Shopping, Mountain, Snow & Ice</p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="far fa-star"></i>
+                    </div>
                 </a>
-                <div class="undercard">
-                    <p class="cities">Grand Switzerland</p>
-                    <p>Shopping, Mountain, Snow & Ice</p>
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                        class="fas fa-star"></i><i class="far fa-star"></i>
-                </div>
             </div>
 
             <div class="city2 card">
                 <a href="#">
                     <img class="imagenes2" src="img/travel3.jpeg" alt="">
                     <span class="position2">$ 2,500</span>
+                    <div class="undercard">
+                        <p class="cities">Discover Japan</p>
+                        <p>City Tours, Urban</p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="far fa-star"></i>
+                    </div>
                 </a>
-                <div class="undercard">
-                    <p class="cities">Discover Japan</p>
-                    <p>City Tours, Urban</p>
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                        class="fas fa-star"></i><i class="far fa-star"></i>
-                </div>
             </div>
+        </div>
     </section>
 
     <footer>
@@ -143,15 +148,16 @@
                     Kingdom</p>
             </div>
             <div>
-                <h2><b>Contact Info</b></h2>
+                <h2 class="customtitle">Contact Info</h2>
                 <p>221-612-9043</p>
                 <p>184 Main Street East Pearl Habour 8007</p>
                 <p>Mon - Sat 8.00 - 19.00 Sunday CLOSED</p>
             </div>
             <div id="formfoot">
-                <h2><b>Newsletter</b></h2>
-                <input class="btn" style="margin: 10px 0;text-align: center;" type="email" placeholder="Your Email Address">
-                <button class="btn red" style="margin: 0" >Subscribe</button>
+                <h2 class="customtitle">Newsletter</h2>
+                <input class="btn" style="margin: 10px 0;text-align: center;" type="email"
+                    placeholder="Your Email Address">
+                <button class="btn red" style="margin: 0">Subscribe</button>
             </div>
         </div>
 
@@ -160,10 +166,10 @@
             <p>© Copyright Grand Tour Theme Demo - Theme by Francisco Blanco</p>
             <ul class="footnav">
                 <li><a href="">Home</a></li>
-                <li><a href="">Booking</a></li>
                 <li><a href="">Tours</a></li>
+                <li><a href="">Booking</a></li>
                 <li><a href="">Destination</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
